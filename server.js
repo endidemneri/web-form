@@ -58,6 +58,6 @@ var Form = mongoose.model("Form", FormSchema);
 	
 });
 
-mongoose.connect('mongodb://endi:endi@ds149258.mlab.com:49258/web-form').then(function() {
+mongoose.connect('mongodb://endi:webform@ds149278.mlab.com:49278/webform').then(function() {
 	app.listen(process.env.PORT || 7000);
 });
